@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffffff"
+    android:id="@+id/rela"
+    android:orientation="vertical"
+    >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/finnalbanner"
+
+            >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/menu"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_notifications_none_24"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="নগদ"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                />
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="25dp"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="140dp"
+                android:background="@drawable/shape"
+                >
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/unnamed"
+                   android:layout_marginTop="3dp"
+                    android:layout_marginLeft="3dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#F1420B"
+                    android:text="ব্যালেন্স জানাতে টাইপ করুন"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="3dp"
+                    />
+            </LinearLayout>
+            
+            </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="320dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/costom"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:id="@+id/mto"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_cash_in"
+                    android:layout_centerInParent="true"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="এম টু পি"
+                    android:layout_below="@id/mto"
+                    android:layout_centerInParent="true"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="15sp"
+                    />
+                
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="#46000000"
+                android:layout_alignParentBottom="true"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:background="#46000000"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_alignParentRight="true"
+                    />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:id="@+id/sadin"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/sadin"
+                    android:layout_centerInParent="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="স্বাধীন"
+                    android:layout_below="@id/sadin"
+                    android:textSize="15sp"
+                    android:layout_centerInParent="true"
+                    android:layout_centerHorizontal="true"/>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="#46000000"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:background="#46000000"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:id="@+id/biboroni"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/biboroni"
+                    android:layout_centerInParent="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="বিবরনী"
+                    android:textSize="15sp"
+                    android:layout_below="@id/biboroni"
+                    android:layout_centerInParent="true"
+                    android:layout_centerHorizontal="true"
+
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:background="#46000000"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
+                    />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:id="@+id/hand"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/hand"
+                    android:layout_centerInParent="true"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="সেটেলমেন্ট"
+                    android:layout_below="@id/hand"
+                    android:layout_centerInParent="true"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="15sp"
+                    />
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="#46000000"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:id="@+id/registration"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/registration"
+                    android:layout_centerInParent="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="নিবন্ধন"
+                    android:layout_below="@id/registration"
+                    android:layout_centerInParent="true"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="15sp"
+                    />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="#46000000"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:id="@+id/bill"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/bill"
+                    android:layout_centerInParent="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="বিল পে"
+                    android:layout_below="@id/bill"
+                    android:layout_centerInParent="true"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="15sp"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+
+
